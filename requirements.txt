@@ -3,3 +3,4 @@ ai71
 langchain
 langchain-community
 chromadb
+streamlit-chat
