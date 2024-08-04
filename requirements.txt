@@ -1,5 +1,5 @@
 streamlit
-python==3.12.4 
+python 
 ai71
 langchain
 langchain-community
