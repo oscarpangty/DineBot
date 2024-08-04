@@ -2,7 +2,7 @@ streamlit
 ai71
 langchain
 langchain-community
-chromadb==0.5.5
+chromadb==0.5.3
 streamlit-chat
 pypdf
 fastembed
