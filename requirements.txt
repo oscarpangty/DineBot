@@ -1,0 +1,5 @@
+streamlit
+ai71
+langchain
+langchain-community
+chromadb
