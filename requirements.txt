@@ -1,5 +1,4 @@
 streamlit
-python 
 ai71
 langchain
 langchain-community
