@@ -9,8 +9,6 @@ from langchain.vectorstores.utils import filter_complex_metadata
 from langchain.schema.runnable import Runnable
 
 from ai71 import AI71
-from pdf2image import convert_from_path
-import pytesseract
 
 class ChatPDF:
     vector_store = None
