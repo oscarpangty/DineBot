@@ -4,4 +4,4 @@ langchain
 langchain-community
 chromadb
 streamlit-chat
-PyPDF2
+pypdf
