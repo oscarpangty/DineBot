@@ -1,4 +1,5 @@
 streamlit
+python==3.12.4 
 ai71
 langchain
 langchain-community
@@ -6,5 +7,5 @@ chromadb
 streamlit-chat
 pypdf
 fastembed
-protobuf==3.20.3
-sqlite
+protobuf==4.25.4 
+sqlite==3.45.3
