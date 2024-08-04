@@ -7,3 +7,4 @@ streamlit-chat
 pypdf
 fastembed
 protobuf==4.25.4 
+sqlite3>= 3.35.0
