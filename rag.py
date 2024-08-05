@@ -18,7 +18,7 @@ class ChatPDF:
     def __init__(self):
         self.text_splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=100)
         self.messages=[{"role": "system", "content": "You are a helpful server that helps users order cuisines."}]
-        self.prompt = "Question: {question}\nContext: {context}"
+        self.prompt = "Context: {context}\n Question: {question}"
         AI71_API_KEY = "api71-api-0340d9f7-ce0d-4155-aa10-c42e41b6ada2"
         self.client = AI71(AI71_API_KEY)
 
