@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_chat import message
 from rag import ChatPDF
 
-st.set_page_config(page_title="ChatPDF")
+st.set_page_config(page_title="DineBot")
 
 __import__('pysqlite3')
 import sys
@@ -47,9 +47,9 @@ def page():
         st.session_state["messages"] = []
         st.session_state["assistant"] = ChatPDF()
 
-    st.header("ChatPDF")
+    st.header("DineBot")
 
-    st.subheader("Upload a document")
+    st.subheader("Upload a menu")
     st.file_uploader(
         "Upload document",
         type=["pdf"],
