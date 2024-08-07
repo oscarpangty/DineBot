@@ -36,7 +36,7 @@ class ChatPDF:
             search_type="similarity_score_threshold",
             search_kwargs={
                 "k": 3,
-                "score_threshold": 0.2,
+                "score_threshold": 0.4,
             },
         )
 
